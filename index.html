@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Casamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recepcao">Recepção</a></li>
+            <li><a href="#lista-presentes">Lista de Presentes</a></li>
+            <li><a href="#confirma-presenca">Confirme sua Presença</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="home-section">
+        <div class="overlay">
+            <h1>Kirito & Asuna</h1>
+            <p>Data do Casamento: 25 de Dezembro de 2024</p>
+            <p>Local: Igreja São João</p>
+        </div>
+    </section>
+
+
+    <!-- Seção Recepção -->
+    <section id="recepcao">
+        <h2>Recepção</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae libero vitae nunc efficitur fermentum. Sed non risus a nunc malesuada gravida. Morbi ac bibendum ligula, sit amet varius purus. Etiam euismod magna at dolor faucibus, ut congue arcu consequat. Aenean aliquet enim ac ante facilisis, vel vulputate ligula vehicula. Fusce vel augue a magna malesuada viverra id eget eros. Integer varius massa ac tempor vulputate. Ut vel dolor ut elit facilisis interdum.
+        </p>
+        <p>
+            Morbi consectetur, sapien nec dictum fermentum, metus risus vehicula urna, non ullamcorper dui nisl nec leo. Aliquam erat volutpat. Nam vulputate dolor nec bibendum tincidunt. Etiam et feugiat purus. Aenean in diam odio. Integer ut convallis risus. In hac habitasse platea dictumst. Donec sit amet venenatis dui. Integer ac dui ac ante luctus volutpat sit amet vel nisi.
+        </p>
+    </section>
+
+
+    <!-- Seção Lista de Presentes -->
+    <section id="lista-presentes">
+        <h2>Lista de Presentes</h2>
+        <div class="presentes-grid">
+            <!-- Presentes serão carregados aqui -->
+        </div>
+    </section>
+
+
+
+    <!-- Seção Confirmação de Presença -->
+    <section id="confirma-presenca">
+        <h2>Confirme sua Presença</h2>
+        <form action="#" method="POST" class="confirmar-presenca-form">
+            <div class="form-group">
+                <label for="nome-completo">Nome Completo</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="irarao">Irá ao evento?</label>
+                <select id="irarao" name="irarao" required>
+                    <option value="">Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="qtd-adultos">Quantidade de Adultos</label>
+                <input type="number" id="qtd-adultos" name="qtd-adultos" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="qtd-criancas">Quantidade de Crianças</label>
+                <input type="number" id="qtd-criancas" name="qtd-criancas" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="observacoes">Observações</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+            </div>
+
+            <button type="submit" class="btn-confirmar">Confirmar Presença</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
