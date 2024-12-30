@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Casamento</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Quicksand:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hurricane&amp;display=swap" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 
     <!-- Menu de navegação -->
@@ -21,28 +27,64 @@
     <!-- Seção Home -->
     <section id="home" class="home-section">
         <div class="overlay">
-            <h1>Kirito & Asuna</h1>
-            <p>Data do Casamento: 25 de Dezembro de 2024</p>
-            <p>Local: Igreja São João</p>
+            <h1 class="title noivos">Kirito & Asuna</h1>
+            <p><b>1 DE JANEIRO DE 2025</b><br>CEARÁ</p>
         </div>
     </section>
 
 
+    <!-- Seção whatever -->
+    <section id="whatever">
+        <p>Aos nossos familiares e amigos,</p>
+
+
+
+        <p>É com imensa alegria que nós compartilhamos a bondade de Deus em nossas vidas, bem como o cumprimento de Suas
+            promessas. Você é parte essencial desta história. Há um ano, nossa jornada começou. O que a princípio
+            parecia ser apenas uma amizade já tinha, por parte de Deus, planos infinitamente maiores do que os nossos.
+            Assim, nasceu um grande amor, sendo fundamentado na vivência dos propósitos divinos em uma aliança: "Para
+            que todos vejam, e saibam, e considerem, e juntamente entendam que a mão do Senhor fez isto, e o Santo de
+            Israel o criou." (Isaías 41:20).</p>
+        <p>Desejamos celebrar este dia tão especial ao seu lado. O dia 06 de dezembro de 2024 foi escolhido pelo Senhor
+            para dar início à formação de uma nova família, um verdadeiro projeto divino.</p>
+        <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento e do local do
+            evento. Ah, é importante também confirmar sua presença. Queremos reforçar que teremos a cerimônia e ao
+            final, iremos recepcionar no mesmo local - a refeição, optamos por adesão, para melhor comodidade. Então não
+            se preocupe com o presente.</p>
+
+
+        <p>Contamos com sua ajuda na confirmação clicando no menu “Confirme sua Presença” e preenchendo os dados
+            necessários.</p>
+
+
+        <p>Se mesmo assim quiser nos presentear, escolha qualquer item da Lista de Casamento na aba presentes ou
+            abençoando nossa vida através do PIX: flavioeliana2024@gmail.com</p>
+
+
+        <p>Fiquem à vontade! Aguardamos vocês no nosso grande dia!</p>
+
+
+        <p>Com carinho,</p>
+
+
+
+        <b><i>Kirito & Asuna</i></b>
+
+
+    </section>
+
     <!-- Seção Recepção -->
     <section id="recepcao">
-        <h2>Recepção</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae libero vitae nunc efficitur fermentum. Sed non risus a nunc malesuada gravida. Morbi ac bibendum ligula, sit amet varius purus. Etiam euismod magna at dolor faucibus, ut congue arcu consequat. Aenean aliquet enim ac ante facilisis, vel vulputate ligula vehicula. Fusce vel augue a magna malesuada viverra id eget eros. Integer varius massa ac tempor vulputate. Ut vel dolor ut elit facilisis interdum.
-        </p>
-        <p>
-            Morbi consectetur, sapien nec dictum fermentum, metus risus vehicula urna, non ullamcorper dui nisl nec leo. Aliquam erat volutpat. Nam vulputate dolor nec bibendum tincidunt. Etiam et feugiat purus. Aenean in diam odio. Integer ut convallis risus. In hac habitasse platea dictumst. Donec sit amet venenatis dui. Integer ac dui ac ante luctus volutpat sit amet vel nisi.
-        </p>
+        <div class="title">Recepção</div>
+        <div class="recepcao"></div>
+        <div class="legenda">Sword Art Online Fortaleza CE</div>
+
     </section>
 
 
     <!-- Seção Lista de Presentes -->
     <section id="lista-presentes">
-        <h2>Lista de Presentes</h2>
+        <div class="title">Lista de Presentes</div>
         <div class="presentes-grid">
             <!-- Presentes serão carregados aqui -->
         </div>
@@ -93,10 +135,14 @@
                 <textarea id="observacoes" name="observacoes"></textarea>
             </div>
 
-            <button type="submit" class="btn-confirmar">Confirmar Presença</button>
+            <div class="buttonDad">
+                <button type="submit" class="btn-confirmar">Confirmar Presença</button>
+            </div>
+            
         </form>
     </section>
 
     <script src="scripts.js"></script>
 </body>
+
 </html>
